@@ -1,0 +1,44 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+*.app
+*.bin
+
+# Debug and core dump files
+*.dSYM/
+*.stackdump
+core
+
+# Dependency files
+*.d
+
+# Build directories
+/build/
+/bin/
+/output/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Makefile intermediate files
+Makefile~
+*.dep
+*.Tpo
+*.Plo
+
+# CTags and Cscope files
+tags
+cscope.*
