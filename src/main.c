@@ -8,7 +8,6 @@
 #define MAX_INPUT 1024
 #define MAX_ARGS 100
 
-
 void simple_shell(){
     char input[MAX_INPUT];
     char *args[MAX_ARGS];
@@ -16,7 +15,6 @@ void simple_shell(){
     while(1){
         printf("myShell>");
         fflush(stdout);
-
         // Read input including newline
         if(!fgets(input, MAX_INPUT, stdin)){
             break;
